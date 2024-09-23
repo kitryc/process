@@ -1,1 +1,129 @@
-<!-- test -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>Process</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+
+        .homeImage img {
+            width: 50vh;
+            height: 50vh;
+            border: 2px solid black;
+            display: block;
+            margin-left: 2vh;
+            margin-right: auto;
+        }
+        
+        .homeText {
+            width: 60%;
+            height: auto;
+            border: 2px solid black;
+            margin-right: 2vh;
+            overflow: auto;
+            padding: 10px;
+            background-color: #737373;
+        }
+        
+        .logo body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80vh;
+            max-width: 500px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 100%;
+        }
+        
+        /* MEDIA QUERY ROW --> COLMN */
+
+        </style>
+
+    </head>
+    
+    <body>
+        <!--
+        <header>
+            <div class="header">
+                <ul class="links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gameplay.html">Gameplay</a></li>
+                    <li><a href="Download.html">Download</a></li>
+                    <li><a href="About Us.html">About Us!</a></li>
+                </ul>
+            </div>
+        </header>
+        -->
+        
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="gameplay.html">Gameplay</a>
+            <a href="download.html">Download</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="container">
+            <div>
+                <img src="https://codehs.com/uploads/c81c8559647233caf62a0d10de43f83f" alt="logo" class="logo">
+            </div>
+    
+        <div class="content">
+            <div class="homeImage" id="homeImage">
+                <img src="https://codehs.com/uploads/44e7fc42352756a31831054a2b713871" alt="image">
+            </div>
+            
+            </br>
+            </br>
+            
+            <div class="homeText">
+                <p style="margin: 6px; font-size: 2.5em;">
+                    A dingy office, a depressing job. You got the short end of the stick,
+                    but you've gotta make the most of it somehow. You can't risk getting fired, after all.
+                    You are the presiding immigration officer, and a new load of immigrants have come your way.
+                    War, money, hunger; we all have our reasons. But are they reason enough?
+                    </br>
+                    </br>
+                    This game is a testiment to the struggles of immigration, but this game focuses on
+                    the side of the officer. Inspired by Papers, Please and That's Not My Neighbor.
+                    </br>
+                    [Placeholder]
+                </p>
+            </div>
+        </div>
+            
+        </div>
+        
+        <script>
+            function toggleNav() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+            
+        </script>
+    </body>
+</html>
